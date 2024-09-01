@@ -1,0 +1,74 @@
+{
+	"temperature": 0.25,
+	"downfall": 0.8,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 8233983,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 8625730,
+		"foliage_color": 6722616,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.old_growth_taiga",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		}
+	},
+	"spawners": {
+		"ambient": [
+		],
+		"axolotls": [],
+		"creature": [
+		],
+		"misc": [],
+		"monster": [
+		],
+		"underground_water_creature": [
+		],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+		]
+	},
+	"features": [
+		[],
+		[
+		],
+		[
+		],
+		[],
+		[],
+		[],
+		[
+		],
+		[],
+		[
+		],
+		[
+			"reliq:ground_patch/coarse_dirt",
+			"reliq:ground_patch/sand",
+			"reliq:ground_patch/mud",
+			"reliq:live_oak_large",
+			"reliq:patch/blue_orchid",
+			"reliq:patch/moss_carpet",
+			"reliq:patch/dead_bush",
+			"reliq:patch/short_grass_cover",
+			"reliq:longleaf_pine",
+			"reliq:slash_pine",
+			"reliq:magnolia"
+		],
+		[
+		]
+	]
+}

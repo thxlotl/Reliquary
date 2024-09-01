@@ -1,0 +1,109 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 4,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 1,
+		"vegetation_chance": 1,
+		"xz_radius": 0,
+		"replaceable": "#minecraft:dirt",
+		"ground_state": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:dirt"
+			}
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:tree",
+				"config": {
+					"ignore_vines": true,
+					"force_dirt": false,
+					"minimum_size": {
+						"type": "minecraft:two_layers_feature_size"
+					},
+					"dirt_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dirt"
+						}
+					},
+					"trunk_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:mangrove_log",
+							"Properties": {
+								"axis": "y"
+							}
+						}
+					},
+					"foliage_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:oak_leaves",
+							"Properties": {
+								"distance": "1",
+								"persistent": "false",
+								"waterlogged": "false"
+							}
+						}
+					},
+					"trunk_placer": {
+						"type": "minecraft:straight_trunk_placer",
+						"base_height": 24,
+						"height_rand_a": 1,
+						"height_rand_b": 3
+					},
+					"foliage_placer": {
+						"type": "minecraft:spruce_foliage_placer",
+						"radius": {
+							"type": "minecraft:uniform",
+							
+								"min_inclusive": 2,
+								"max_inclusive": 3
+							
+						},
+						"offset": {
+							"type": "minecraft:uniform",
+							
+								"min_inclusive": 3,
+								"max_inclusive": 5
+							
+						},
+						"trunk_height": 24
+					},
+					"decorators": [
+						{
+							"type": "minecraft:attached_to_leaves",
+							"probability": 1,
+							"exclusion_radius_xz": 0,
+							"exclusion_radius_y": 0,
+							"required_empty_blocks": 1,
+							"block_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:oak_leaves",
+									"Properties": {
+										"distance": "1",
+										"persistent": "false",
+										"waterlogged": "false"
+									}
+								}
+							},
+							"directions": [
+								"north",
+								"east",
+								"up",
+								"south",
+								"west"
+							]
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

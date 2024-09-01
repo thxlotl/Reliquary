@@ -1,0 +1,59 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot_fallen",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot_kneel",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot_no_head",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot_ruins",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/robot/robot_tree",
+				"processors": "reliq:ancient_jungle_robot"
+			}
+		}
+	]
+}

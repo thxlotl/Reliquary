@@ -1,0 +1,89 @@
+{
+	"feature": {
+		"type": "minecraft:simple_block",
+		"config": {
+			"to_place": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:small_dripleaf",
+							"Properties": {
+								"half": "lower",
+								"facing": "north"
+							}
+						}
+					},
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:small_dripleaf",
+							"Properties": {
+								"half": "lower",
+								"facing": "east"
+							}
+						}
+					},
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:small_dripleaf",
+							"Properties": {
+								"half": "lower",
+								"facing": "south"
+							}
+						}
+					},
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:small_dripleaf",
+							"Properties": {
+								"half": "lower",
+								"facing": "west"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 10
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"state": {
+					"Name": "minecraft:small_dripleaf",
+					"Properties": {
+						"half": "lower"
+					}
+				}
+			}
+		}
+	]
+}

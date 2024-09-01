@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "reliq:ancient_jungle_robot",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 2010729047,
+		"spacing": 8,
+		"separation": 4
+	}
+}

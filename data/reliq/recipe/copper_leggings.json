@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:leather_leggings",
+		"components": {
+			"minecraft:dyed_color": {
+				"rgb": 15100477,
+				"show_in_tooltip": false
+			},
+			"minecraft:item_name": "{\"text\":\"Copper Leggings\"}",
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"id": "a",
+						"type": "minecraft:generic.armor",
+						"amount": 4,
+						"operation": "add_value",
+						"slot": "legs"
+					}
+				]
+			},
+			"minecraft:max_damage": 280,
+			"minecraft:custom_data": "{\"custom_id\":\"copper_leggings\"}",
+			"minecraft:trim": {
+				"material": "minecraft:copper",
+				"pattern": "minecraft:silence",
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

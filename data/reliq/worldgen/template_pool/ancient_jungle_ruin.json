@@ -1,0 +1,77 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/pillar_ruin",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/pillar_ruin_short",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/pillar_ruin_sideways",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/altar",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/archway",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/pyramid",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/temple",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/tower",
+				"processors": "reliq:ancient_jungle_ruin"
+			}
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:polished_tuff",
+						"probability": 0.13
+					},
+					"output_state": {
+						"Name": "minecraft:tuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:cyan_terracotta",
+						"probability": 0.75
+					},
+					"output_state": {
+						"Name": "minecraft:gray_glazed_terracotta",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:terracotta",
+						"probability": 0.25
+					},
+					"output_state": {
+						"Name": "minecraft:white_concrete"
+					}
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:white_concrete",
+						"probability": 0.25
+					},
+					"output_state": {
+						"Name": "minecraft:brown_glazed_terracotta",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:white_concrete",
+						"probability": 0.4
+					},
+					"output_state": {
+						"Name": "minecraft:orange_glazed_terracotta",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:white_concrete",
+						"probability": 0.5
+					},
+					"output_state": {
+						"Name": "minecraft:yellow_glazed_terracotta",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:white_concrete"
+					},
+					"output_state": {
+						"Name": "minecraft:lime_glazed_terracotta",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				}
+			]
+		}
+	]
+}

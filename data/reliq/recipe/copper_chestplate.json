@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"X X",
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:leather_chestplate",
+		"components": {
+			"minecraft:dyed_color": {
+				"rgb": 15100477,
+				"show_in_tooltip": false
+			},
+			"minecraft:item_name": "{\"text\":\"Copper Chestplate\"}",
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"id": "a",
+						"type": "minecraft:generic.armor",
+						"amount": 5,
+						"operation": "add_value",
+						"slot": "chest"
+					}
+				]
+			},
+			"minecraft:max_damage": 280,
+			"minecraft:custom_data": "{\"custom_id\":\"copper_chestplate\"}",
+			"minecraft:trim": {
+				"material": "minecraft:copper",
+				"pattern": "minecraft:silence",
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

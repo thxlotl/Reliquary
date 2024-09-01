@@ -1,0 +1,158 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 1,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.3,
+		"vegetation_chance": 0.25,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			
+				"min_inclusive": 2,
+				"max_inclusive": 3
+			
+		},
+		"replaceable": "#minecraft:dirt",
+		"ground_state": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:tuff"
+			}
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:tree",
+				"config": {
+					"ignore_vines": true,
+					"force_dirt": false,
+					"minimum_size": {
+						"type": "minecraft:two_layers_feature_size"
+					},
+					"dirt_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:tuff"
+						}
+					},
+					"trunk_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:tuff"
+						}
+					},
+					"foliage_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:tuff"
+						}
+					},
+					"trunk_placer": {
+						"type": "minecraft:straight_trunk_placer",
+						"base_height": 1,
+						"height_rand_a": 0,
+						"height_rand_b": 0
+					},
+					"foliage_placer": {
+						"type": "minecraft:acacia_foliage_placer",
+						"radius": {
+							"type": "minecraft:weighted_list",
+							"distribution": [
+								{
+									"weight": 5,
+									"data": 2
+								},
+								{
+									"weight": 1,
+									"data": 1
+								}
+							]
+						},
+						"offset": 0
+					},
+					"decorators": [
+						{
+							"type": "minecraft:attached_to_leaves",
+							"probability": 0.9,
+							"exclusion_radius_xz": 0,
+							"exclusion_radius_y": 0,
+							"required_empty_blocks": 1,
+							"block_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:moss_carpet"
+								}
+							},
+							"directions": [
+								"up"
+							]
+						},
+						{
+							"type": "minecraft:attached_to_leaves",
+							"probability": 1,
+							"exclusion_radius_xz": 0,
+							"exclusion_radius_y": 0,
+							"required_empty_blocks": 1,
+							"block_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:tuff"
+								}
+							},
+							"directions": [
+								"down"
+							]
+						}
+					]
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-1,
+									-1,
+									0
+								],
+								"blocks": "minecraft:tuff"
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									1,
+									-1,
+									0
+								],
+								"blocks": "minecraft:tuff"
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									1
+								],
+								"blocks": "minecraft:tuff"
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									-1
+								],
+								"blocks": "minecraft:tuff"
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

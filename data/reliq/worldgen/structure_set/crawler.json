@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "reliq:crawler",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 391021913,
+		"spacing": 26,
+		"separation": 10
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"   ",
+		"X X",
+		"X X"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"result": {
+		"id": "minecraft:leather_boots",
+		"components": {
+			"minecraft:dyed_color": {
+				"rgb": 15100477,
+				"show_in_tooltip": false
+			},
+			"minecraft:item_name": "{\"text\":\"Copper Boots\"}",
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"id": "a",
+						"type": "minecraft:generic.armor",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "feet"
+					}
+				]
+			},
+			"minecraft:max_damage": 280,
+			"minecraft:custom_data": "{\"custom_id\":\"copper_boots\"}",
+			"minecraft:trim": {
+				"material": "minecraft:copper",
+				"pattern": "minecraft:silence",
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

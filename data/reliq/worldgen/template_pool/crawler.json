@@ -1,0 +1,32 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/crab",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/alligator",
+				"processors": "empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "reliq:ancient_jungle/ant",
+				"processors": "empty"
+			}
+		}
+	]
+}
