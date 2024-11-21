@@ -6,6 +6,8 @@ Modrinth - https://modrinth.com/user/thxlotl
 
 Interstella Discord - https://discord.gg/D7hyC7AWMJ
 
+Patreon - https://www.patreon.com/InterstellaStudios
+
 ------------------------------------------------------------------------------------
 
 ## Reliquary
