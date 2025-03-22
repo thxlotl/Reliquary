@@ -205,10 +205,12 @@
 			"reliq:mossy_dripstone_rock",
 			"reliq:small_dripleaf",
 			"reliq:patch/fern_short_grass",
+			
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
-			"minecraft:patch_sugar_cane"
+			"minecraft:patch_sugar_cane",
+			"minecraft:patch_firefly_bush_near_water"
 		],
 		[
 			"minecraft:freeze_top_layer"
