@@ -7,35 +7,27 @@
 		"   "
 	],
 	"key": {
-		"X": {
-			"item": "minecraft:copper_ingot"
-		}
+		"X": "copper_ingot"
 	},
 	"result": {
 		"id": "minecraft:leather_helmet",
 		"components": {
-			"minecraft:dyed_color": {
-				"rgb": 15100477,
-				"show_in_tooltip": false
-			},
+			"minecraft:dyed_color": 15100477,
 			"minecraft:item_name": "{\"text\":\"Copper Helmet\"}",
-			"minecraft:attribute_modifiers": {
-				"modifiers": [
-					{
-						"id": "a",
-						"type": "minecraft:generic.armor",
-						"amount": 2,
-						"operation": "add_value",
-						"slot": "head"
-					}
-				]
-			},
+			"minecraft:attribute_modifiers": [
+				{
+					"id": "a",
+					"type": "minecraft:armor",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
 			"minecraft:max_damage": 280,
 			"minecraft:custom_data": "{\"custom_id\":\"copper_helmet\"}",
 			"minecraft:trim": {
 				"material": "minecraft:copper",
-				"pattern": "minecraft:silence",
-				"show_in_tooltip": false
+				"pattern": "minecraft:silence"
 			}
 		}
 	}

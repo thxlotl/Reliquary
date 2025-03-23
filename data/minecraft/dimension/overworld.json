@@ -51516,7 +51516,7 @@
       ],
       "type": "minecraft:multi_noise"
     },
-    "settings": "minecraft:test",
+    "settings": "minecraft:overworld",
     "type": "minecraft:noise"
   }
 }
