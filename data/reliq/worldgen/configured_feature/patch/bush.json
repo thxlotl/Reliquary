@@ -1,23 +1,20 @@
 {
 	"type": "minecraft:random_patch",
 	"config": {
-		"tries": 60,
-		"xz_spread": 3,
+		"tries": 55,
+		"xz_spread": 4,
 		"y_spread": 3,
 		"feature": {
 			"feature": {
-				"type": "minecraft:simple_block",
 				"config": {
 					"to_place": {
 						"type": "minecraft:simple_state_provider",
 						"state": {
-							"Name": "minecraft:large_fern",
-							"Properties": {
-								"half": "lower"
-							}
+							"Name": "bush"
 						}
 					}
-				}
+				},
+				"type": "minecraft:simple_block"
 			},
 			"placement": [
 				{

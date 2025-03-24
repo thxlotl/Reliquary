@@ -9,6 +9,7 @@
 		"water_fog_color": 329011,
 		"grass_color": 7187800,
 		"foliage_color": 6188322,
+		"dry_foliage_color": 6188322,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
@@ -200,14 +201,15 @@
 		],
 		[
 			"reliq:ground_patch/coarse_dirt",
-			"reliq:birch_stump",
-			"reliq:birch_fell",
-			"reliq:patch/grass",
-			"reliq:patch/forest_flower",
+			"reliq:patch/bush",
 			"reliq:patch/dandelion",
+			"reliq:patch/forest_flower",
+			"reliq:patch/grass",
 			"reliq:birch_cone",
-			"reliq:birch",
+			"reliq:birch_fell",
 			"reliq:birch_gold",
+			"reliq:birch_stump",
+			"reliq:birch",
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

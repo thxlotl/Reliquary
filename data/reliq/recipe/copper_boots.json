@@ -13,7 +13,7 @@
 	  "id": "minecraft:leather_boots",
 	  "components": {
 		"minecraft:dyed_color": 15100477,
-		"minecraft:item_name": "{\"text\":\"Copper Boots\"}",
+		"minecraft:item_name": "Copper Boots",
 		"minecraft:attribute_modifiers": [
 		  {
 			"id": "a",

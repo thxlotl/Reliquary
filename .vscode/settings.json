@@ -5,11 +5,11 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/CVS": true,
         "**/.classpath": true,
         "**/.project": true,
         "**/.settings": true,
-        "**/.factorypath": true
+        "**/.factorypath": true,
+        "**/CVS": true
     },
     "hide-files.files": [],
     "workbench.iconTheme": "mc-dp-icons"

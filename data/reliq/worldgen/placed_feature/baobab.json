@@ -1,13 +1,13 @@
 {
-	"feature": "minecraft:fallen_oak_tree",
+	"feature": "reliq:baobab",
 	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 5
-		},
 		{
 			"type": "minecraft:count",
 			"count": 1
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 3
 		},
 		{
 			"type": "minecraft:in_square"
@@ -22,6 +22,15 @@
 		},
 		{
 			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:tall_dry_grass"
+				}
+			}
 		}
 	]
 }

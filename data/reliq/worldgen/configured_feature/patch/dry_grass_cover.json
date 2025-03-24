@@ -1,9 +1,9 @@
 {
 	"type": "minecraft:random_patch",
 	"config": {
-		"tries": 60,
-		"xz_spread": 3,
-		"y_spread": 3,
+		"tries": 800,
+		"xz_spread": 8,
+		"y_spread": 8,
 		"feature": {
 			"feature": {
 				"type": "minecraft:simple_block",
@@ -11,10 +11,7 @@
 					"to_place": {
 						"type": "minecraft:simple_state_provider",
 						"state": {
-							"Name": "minecraft:large_fern",
-							"Properties": {
-								"half": "lower"
-							}
+							"Name": "minecraft:tall_dry_grass"
 						}
 					}
 				}
@@ -36,7 +33,7 @@
 									-1,
 									0
 								],
-								"blocks": "#minecraft:dirt"
+								"blocks": "#minecraft:dry_vegetation_may_place_on"
 							}
 						]
 					}

@@ -9,6 +9,7 @@
 		"water_fog_color": 329011,
 		"grass_color": 9479233,
 		"foliage_color": 8557624,
+		"dry_foliage_color": 8557624,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
@@ -200,9 +201,10 @@
 		],
 		[
 			"reliq:patch/dandelion",
-			"reliq:patch/tall_grass",
 			"reliq:patch/short_grass_cover",
+			"reliq:patch/tall_grass",
 			"reliq:tree_prairie",
+
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",

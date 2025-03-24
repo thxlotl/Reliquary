@@ -13,7 +13,7 @@
 		"id": "minecraft:leather_leggings",
 		"components": {
 			"minecraft:dyed_color": 15100477,
-			"minecraft:item_name": "{\"text\":\"Copper Leggings\"}",
+			"minecraft:item_name": "Copper Leggings",
 			"minecraft:attribute_modifiers": [
 				{
 					"id": "a",

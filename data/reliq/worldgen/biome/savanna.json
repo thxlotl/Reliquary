@@ -7,9 +7,9 @@
 		"fog_color": 12638463,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 6789462,
-		"foliage_color": 7578944,
-		"dry_foliage_color": 7578944,
+		"grass_color": 11183179,
+		"foliage_color": 8033086,
+		"dry_foliage_color": 8033086,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
@@ -18,16 +18,16 @@
 		},
 		"music": [
 			{
-			  "weight": 1,
-			  "data": {
-				"sound": "minecraft:music.overworld.forest",
-				"min_delay": 12000,
-				"max_delay": 24000,
-				"replace_current_music": false
-			  }
+				"weight": 1,
+				"data": {
+					"sound": "minecraft:music.overworld.forest",
+					"min_delay": 12000,
+					"max_delay": 24000,
+					"replace_current_music": false
+				}
 			}
-		  ],
-		  "music_volume": 1
+		],
+		"music_volume": 1
 	},
 	"spawners": {
 		"ambient": [
@@ -147,10 +147,10 @@
 	},
 	"spawn_costs": {},
 	"carvers": [
-			"minecraft:cave",
-			"minecraft:cave_extra_underground",
-			"minecraft:canyon"
-		],
+		"minecraft:cave",
+		"minecraft:cave_extra_underground",
+		"minecraft:canyon"
+	],
 	"features": [
 		[],
 		[
@@ -200,18 +200,12 @@
 			"minecraft:spring_lava"
 		],
 		[
-			"reliq:ground_patch/coarse_dirt_sparse",
-			"reliq:ground_patch/gravel",
-			"reliq:patch/bush",
-			"reliq:patch/forest_flower",
-			"reliq:patch/grass",
-			"reliq:birch",
-			"reliq:dark_oak_shrub",
-			"reliq:live_oak",
-			"reliq:oak_1",
-			"reliq:oak_2",
-			"reliq:oak_fell",
-			"reliq:oak_stump",
+			"reliq:baobab",
+			"reliq:ground_patch/coarse_dirt",
+			"reliq:ground_patch/sand",
+			"reliq:patch/dry_grass",
+			"reliq:patch/short_grass_cover",
+			
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

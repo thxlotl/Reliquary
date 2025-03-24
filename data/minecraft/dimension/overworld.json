@@ -721,7 +721,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -781,7 +781,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -991,7 +991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -1561,7 +1561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -1621,7 +1621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -1891,7 +1891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -2461,7 +2461,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -2521,7 +2521,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -3661,7 +3661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -3691,7 +3691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -4141,7 +4141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -4201,7 +4201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -4591,7 +4591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -4651,7 +4651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -5581,7 +5581,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -5611,7 +5611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -6421,7 +6421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -6481,7 +6481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -7231,7 +7231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -7831,7 +7831,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -7891,7 +7891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -8641,7 +8641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -9031,7 +9031,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -9301,7 +9301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -9481,7 +9481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -10021,7 +10021,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -10081,7 +10081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -10801,7 +10801,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -10831,7 +10831,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -10981,7 +10981,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -11341,7 +11341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -11401,7 +11401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -12181,7 +12181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -12541,7 +12541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -13081,7 +13081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -13591,7 +13591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -14341,7 +14341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -14881,7 +14881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -15151,7 +15151,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -15781,7 +15781,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -16501,7 +16501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -17251,7 +17251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -17791,7 +17791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -18391,7 +18391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -18811,7 +18811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -19501,7 +19501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -20041,7 +20041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -20491,7 +20491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -21091,7 +21091,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -22501,7 +22501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -24181,7 +24181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -24721,7 +24721,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -25141,7 +25141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -25591,7 +25591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -26491,7 +26491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -26551,7 +26551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -26761,7 +26761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -27331,7 +27331,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -27391,7 +27391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -27661,7 +27661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -28231,7 +28231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -28291,7 +28291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -29431,7 +29431,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -29461,7 +29461,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -29911,7 +29911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -29971,7 +29971,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -30361,7 +30361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -30421,7 +30421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -31351,7 +31351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -31381,7 +31381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -32191,7 +32191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -32251,7 +32251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -33001,7 +33001,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -33601,7 +33601,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -33661,7 +33661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -34411,7 +34411,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -34801,7 +34801,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -35071,7 +35071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -35251,7 +35251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -35791,7 +35791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -35851,7 +35851,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -36571,7 +36571,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -36601,7 +36601,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -36751,7 +36751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -37111,7 +37111,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -37171,7 +37171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -37951,7 +37951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -38311,7 +38311,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -38851,7 +38851,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:beach"
+          "biome": "reliq:beach"
         },
         {
           "parameters": {
@@ -39361,7 +39361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -40111,7 +40111,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -40651,7 +40651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -40921,7 +40921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -41551,7 +41551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -42271,7 +42271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -43021,7 +43021,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -43561,7 +43561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -44161,7 +44161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -44581,7 +44581,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -45271,7 +45271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -45811,7 +45811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -46261,7 +46261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -46861,7 +46861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -48271,7 +48271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -49951,7 +49951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:swamp"
+          "biome": "reliq:flatwoods"
         },
         {
           "parameters": {
@@ -50491,7 +50491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {
@@ -50911,7 +50911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:birch_forest"
+          "biome": "reliq:birch_forest"
         },
         {
           "parameters": {
@@ -51361,7 +51361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna"
+          "biome": "reliq:savanna"
         },
         {
           "parameters": {

@@ -1,0 +1,31 @@
+{
+	"feature": "reliq:patch/dry_grass_beach",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 2
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 65
+				},
+				"max_inclusive": {
+					"absolute": 300
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}
