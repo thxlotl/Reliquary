@@ -2,7 +2,7 @@
 	"type": "minecraft:random_patch",
 	"config": {
 		"tries": 60,
-		"xz_spread": 4,
+		"xz_spread": 2,
 		"y_spread": 1,
 		"feature": {
 			"feature": {
@@ -44,7 +44,7 @@
 									-1,
 									0
 								],
-								"blocks": "#minecraft:dry_vegetation_may_place_on"
+								"blocks": "minecraft:sand"
 							}
 						]
 					}

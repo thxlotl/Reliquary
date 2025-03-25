@@ -26,10 +26,108 @@
 		{
 			"type": "minecraft:block_predicate_filter",
 			"predicate": {
-				"type": "minecraft:would_survive",
-				"state": {
-					"Name": "minecraft:tall_dry_grass"
-				}
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							-1,
+							0,
+							1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							0,
+							0,
+							1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							1,
+							0,
+							1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							-1,
+							0,
+							0
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							1,
+							0,
+							0
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							-1,
+							0,
+							-1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							0,
+							0,
+							-1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					},
+					{
+						"type": "minecraft:would_survive",
+						"offset": [
+							1,
+							0,
+							-1
+						],
+						"state": {
+							"Name": "minecraft:short_dry_grass"
+						}
+					}
+				]
 			}
 		}
 	]

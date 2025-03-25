@@ -2,21 +2,20 @@
 	"type": "minecraft:vegetation_patch",
 	"config": {
 		"surface": "floor",
-		"depth": 2,
-		"vertical_range": 6,
+		"depth": 3,
+		"vertical_range": 10,
 		"extra_bottom_block_chance": 0,
 		"extra_edge_column_chance": 1,
 		"vegetation_chance": 1,
-		"xz_radius": {
-			"type": "minecraft:uniform",
-			"min_inclusive": 1,
-			"max_inclusive": 2
-		},
+		"xz_radius": 1,
 		"replaceable": "#minecraft:dirt",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:dirt"
+				"Name": "minecraft:stripped_jungle_wood",
+				"Properties": {
+					"axis": "y"
+				}
 			}
 		},
 		"vegetation_feature": {
@@ -26,14 +25,15 @@
 					"ignore_vines": true,
 					"force_dirt": true,
 					"minimum_size": {
-						"type": "minecraft:two_layers_feature_size",
-						"lower_size": 2,
-						"upper_size": 2
+						"type": "minecraft:two_layers_feature_size"
 					},
 					"dirt_provider": {
 						"type": "minecraft:simple_state_provider",
 						"state": {
-							"Name": "minecraft:dirt"
+							"Name": "minecraft:stripped_jungle_wood",
+							"Properties": {
+								"axis": "y"
+							}
 						}
 					},
 					"trunk_provider": {
@@ -58,9 +58,9 @@
 					},
 					"trunk_placer": {
 						"type": "minecraft:cherry_trunk_placer",
-						"base_height": 14,
-						"height_rand_a": 3,
-						"height_rand_b": 1,
+						"base_height": 10,
+						"height_rand_a": 1,
+						"height_rand_b": 0,
 						"branch_count": {
 							"type": "minecraft:uniform",
 							"min_inclusive": 1,
@@ -72,13 +72,13 @@
 							"max_inclusive": 3
 						},
 						"branch_start_offset_from_top": {
-							"min_inclusive": -4,
+							"min_inclusive": -2,
 							"max_inclusive": -1
 						},
 						"branch_end_offset_from_top": {
 							"type": "minecraft:uniform",
 							"min_inclusive": 0,
-							"max_inclusive": 1
+							"max_inclusive": 4
 						}
 					},
 					"foliage_placer": {

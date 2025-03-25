@@ -200,11 +200,10 @@
 			"minecraft:spring_lava"
 		],
 		[
-			"reliq:baobab",
 			"reliq:ground_patch/coarse_dirt",
-			"reliq:ground_patch/sand",
 			"reliq:patch/dry_grass",
 			"reliq:patch/short_grass_cover",
+			"reliq:baobab",
 			
 
 			"minecraft:glow_lichen",
