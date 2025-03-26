@@ -202,6 +202,8 @@
 		[
 			"reliq:ground_patch/coarse_dirt",
 			"reliq:ground_patch/gravel",
+			"reliq:redwood_tall",
+			"reliq:redwood",
 			"reliq:patch/azure_bluet",
 			"reliq:patch/bush_dense",
 			"reliq:patch/fern_short_grass",
@@ -211,8 +213,6 @@
 			"reliq:mossy_stone_rock",
 			"reliq:pine_1_sparse",
 			"reliq:redwood_stump",
-			"reliq:redwood_tall",
-			"reliq:redwood",
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

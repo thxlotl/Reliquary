@@ -10,7 +10,13 @@
 			"chance": 4
 		},
 		{
-			"type": "minecraft:in_square"
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 3,
+				"max_inclusive": 13
+			},
+			"y_spread": 0
 		},
 		{
 			"type": "minecraft:surface_water_depth_filter",

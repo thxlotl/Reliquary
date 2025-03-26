@@ -8,8 +8,8 @@
 		"water_color": 4159204,
 		"water_fog_color": 329011,
 		"grass_color": 11183179,
-		"foliage_color": 8033086,
-		"dry_foliage_color": 8033086,
+		"foliage_color": 10270812,
+		"dry_foliage_color": 10270812,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
@@ -201,9 +201,10 @@
 		],
 		[
 			"reliq:ground_patch/coarse_dirt",
+			"reliq:baobab",
+			"reliq:termite_mound",
 			"reliq:patch/dry_grass",
 			"reliq:patch/short_grass_cover",
-			"reliq:baobab",
 			
 
 			"minecraft:glow_lichen",

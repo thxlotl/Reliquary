@@ -1,9 +1,9 @@
 {
 	"type": "minecraft:random_patch",
 	"config": {
-		"tries": 800,
-		"xz_spread": 8,
-		"y_spread": 8,
+		"tries": 90,
+		"xz_spread": 2,
+		"y_spread": 2,
 		"feature": {
 			"feature": {
 				"type": "minecraft:simple_block",
@@ -24,6 +24,11 @@
 						"predicates": [
 							{
 								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									0
+								],
 								"blocks": "minecraft:air"
 							},
 							{
