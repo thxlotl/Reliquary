@@ -79,13 +79,13 @@
 						"type": "minecraft:straight_trunk_placer",
 						"base_height": 3,
 						"height_rand_a": 1,
-						"height_rand_b": 2
+						"height_rand_b": 1
 					},
 					"foliage_placer": {
 						"type": "minecraft:fancy_foliage_placer",
 						"radius": 0,
 						"offset": 0,
-						"height": 0
+						"height": 1
 					},
 					"decorators": []
 				},
@@ -95,7 +95,7 @@
 				{
 					"type": "minecraft:random_offset",
 					"xz_spread": 0,
-					"y_spread": 3
+					"y_spread": 2
 				}
 			]
 		}

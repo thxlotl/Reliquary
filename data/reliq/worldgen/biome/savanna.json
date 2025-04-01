@@ -8,7 +8,7 @@
 		"water_color": 4159204,
 		"water_fog_color": 329011,
 		"grass_color": 11183179,
-		"foliage_color": 11183179,
+		"foliage_color": 9939531,
 		"dry_foliage_color": 11183179,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
@@ -202,10 +202,12 @@
 		[
 			"reliq:ground_patch/coarse_dirt",
 			"reliq:baobab",
+			"reliq:stone_rock",
 			"reliq:termite_mound",
 			"reliq:patch/dry_grass",
 			"reliq:patch/short_grass_cover",
 			"reliq:acacia",
+
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
