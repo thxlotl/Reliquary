@@ -63,15 +63,15 @@
 			"reliq:ground_patch/coarse_dirt",
 			"reliq:ground_patch/sand",
 			"reliq:ground_patch/mud",
+			"reliq:tree/live_oak_large",
+			"reliq:tree/longleaf_pine",
+			"reliq:tree/magnolia",
+			"reliq:tree/slash_pine",
 			"reliq:patch/bush",
 			"reliq:patch/blue_orchid",
 			"reliq:patch/dead_bush",
 			"reliq:patch/moss_carpet",
-			"reliq:patch/short_grass_cover",
-			"reliq:live_oak_large",
-			"reliq:longleaf_pine",
-			"reliq:magnolia",
-			"reliq:slash_pine"
+			"reliq:patch/short_grass_cover"
 
 		],
 		[

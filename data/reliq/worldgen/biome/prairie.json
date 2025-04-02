@@ -200,10 +200,10 @@
 			"minecraft:spring_lava"
 		],
 		[
+			"reliq:tree/prairie",
 			"reliq:patch/dandelion",
 			"reliq:patch/short_grass_cover",
 			"reliq:patch/tall_grass",
-			"reliq:tree_prairie",
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

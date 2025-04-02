@@ -1,9 +1,13 @@
 {
-	"feature": "reliq:patch/bush",
+	"feature": "reliq:ground/mossy_stone_rock",
 	"placement": [
 		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		},
+		{
 			"type": "minecraft:count",
-			"count": 8
+			"count": 1
 		},
 		{
 			"type": "minecraft:in_square"

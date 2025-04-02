@@ -201,12 +201,12 @@
 		],
 		[
 			"reliq:ground_patch/coarse_dirt",
-			"reliq:baobab",
-			"reliq:stone_rock",
-			"reliq:termite_mound",
+			"reliq:ground/stone_rock",
+			"reliq:tree/acacia",
+			"reliq:tree/baobab",
+			"reliq:other/termite_mound",
 			"reliq:patch/dry_grass",
 			"reliq:patch/short_grass_cover",
-			"reliq:acacia",
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

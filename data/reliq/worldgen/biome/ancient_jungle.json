@@ -200,13 +200,15 @@
 		[
 			"reliq:ground_patch/coarse_dirt_sparse",
 			"reliq:ground_patch/grass_inset",
-			"reliq:jungle_ancient",
+			"reliq:ground/mossy_dripstone_rock",
+			"reliq:tree/jungle_1",
+			"reliq:tree/jungle_ancient",
+			"reliq:flora/huge_bamboo",
+			"reliq:flora/small_dripleaf",
 			"reliq:patch/bush_dense",
 			"reliq:patch/fern_short_grass",
-			"reliq:huge_bamboo",
-			"reliq:jungle_1",
-			"reliq:mossy_dripstone_rock",
-			"reliq:small_dripleaf",
+			
+			
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
