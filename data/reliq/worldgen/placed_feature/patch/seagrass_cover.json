@@ -1,20 +1,16 @@
 {
-	"feature": "reliq:ground/stone_rock",
+	"feature": "reliq:patch/seagrass_cover",
 	"placement": [
 		{
-			"type": "minecraft:rarity_filter",
-			"chance": 5
-		},
-		{
 			"type": "minecraft:count",
-			"count": 1
+			"count": 256
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:heightmap",
-			"heightmap": "WORLD_SURFACE_WG"
+			"heightmap": "OCEAN_FLOOR_WG"
 		},
 		{
 			"type": "minecraft:biome"

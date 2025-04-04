@@ -1,15 +1,9 @@
 {
-	"feature": "reliq:tree/acacia",
+	"feature": "reliq:tree/rainforest_1",
 	"placement": [
 		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 1,
-			"noise_factor": 3,
-			"noise_offset": 0
-		},
-		{
 			"type": "minecraft:count",
-			"count": 2
+			"count": 6
 		},
 		{
 			"type": "minecraft:in_square"
@@ -29,11 +23,13 @@
 			"type": "minecraft:block_predicate_filter",
 			"predicate": {
 				"type": "minecraft:would_survive",
+				"offset": [
+					0,
+					0,
+					0
+				],
 				"state": {
-					"Name": "minecraft:acacia_sapling",
-					"Properties": {
-						"stage": "0"
-					}
+					"Name": "minecraft:jungle_sapling"
 				}
 			}
 		}

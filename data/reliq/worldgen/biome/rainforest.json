@@ -7,9 +7,9 @@
 		"fog_color": 12638463,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 4681004,
-		"foliage_color": 4552477,
-		"dry_foliage_color": 8227103,
+		"grass_color": 6721601,
+		"foliage_color": 6917169,
+		"dry_foliage_color": 8622365,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
@@ -198,12 +198,15 @@
 			"minecraft:spring_water"
 		],
 		[
+			"reliq:ground_patch/mud_dense",
 			"reliq:ground/mossy_stone_rock",
+			"reliq:patch/seagrass_cover",
 			"reliq:tree/rainforest_canopy",
 			"reliq:tree/jungle_1",
+			"reliq:tree/rainforest_1",
 			"reliq:patch/bush_dense",
 			"reliq:patch/fern_short_grass",
-
+			
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
