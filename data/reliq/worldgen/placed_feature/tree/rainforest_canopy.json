@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 5
+			"count": 6
 		},
 		{
 			"type": "minecraft:random_offset",
@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "minecraft:heightmap",
-			"heightmap": "OCEAN_FLOOR"
+			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
 		},
 		{
 			"type": "minecraft:biome"

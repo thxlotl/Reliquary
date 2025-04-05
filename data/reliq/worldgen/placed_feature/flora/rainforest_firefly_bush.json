@@ -1,15 +1,23 @@
 {
-	"feature": "reliq:flora/huge_bamboo",
+	"feature": {
+		"type": "minecraft:simple_block",
+		"config": {
+			"to_place": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:firefly_bush"
+				}
+			}
+		}
+	},
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 14
-		},
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 1,
-			"noise_factor": 25,
-			"noise_offset": -0.35
+			"count": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 2,
+				"max_inclusive": 4
+			}
 		},
 		{
 			"type": "minecraft:in_square"
@@ -35,12 +43,7 @@
 					0
 				],
 				"state": {
-					"Name": "minecraft:bamboo",
-					"Properties": {
-						"age": "0",
-						"leaves": "none",
-						"stage": "0"
-					}
+					"Name": "minecraft:firefly_bush"
 				}
 			}
 		}

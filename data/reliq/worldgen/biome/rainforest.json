@@ -200,12 +200,14 @@
 		[
 			"reliq:ground_patch/mud_dense",
 			"reliq:ground/mossy_stone_rock",
-			"reliq:patch/seagrass_cover",
+			"reliq:flora/glowplant",
 			"reliq:tree/rainforest_canopy",
 			"reliq:tree/jungle_1",
 			"reliq:tree/rainforest_1",
+			"reliq:flora/rainforest_firefly_bush",
 			"reliq:patch/bush_dense",
 			"reliq:patch/fern_short_grass",
+			"reliq:patch/seagrass_cover",
 			
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
