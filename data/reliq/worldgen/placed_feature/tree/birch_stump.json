@@ -28,7 +28,7 @@
 			"predicate": {
 				"type": "minecraft:would_survive",
 				"state": {
-					"Name": "minecraft:birch_log",
+					"Name": "minecraft:birch_sapling",
 					"Properties": {
 						"stage": "0"
 					}
