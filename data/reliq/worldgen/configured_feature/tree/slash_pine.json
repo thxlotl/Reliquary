@@ -35,7 +35,7 @@
 		"trunk_placer": {
 			"type": "minecraft:cherry_trunk_placer",
 			"base_height": 11,
-			"height_rand_a": 2,
+			"height_rand_a": 0,
 			"height_rand_b": 2,
 			"branch_count": {
 				"type": "minecraft:uniform",
@@ -52,8 +52,8 @@
 			"branch_end_offset_from_top": {
 				"type": "minecraft:uniform",
 				
-					"min_inclusive": 1,
-					"max_inclusive": 3
+					"min_inclusive": 3,
+					"max_inclusive": 5
 				
 			}
 		},
