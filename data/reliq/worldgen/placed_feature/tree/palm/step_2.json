@@ -1,45 +1,53 @@
 {
 	"feature": {
-	  "config": {
-		"tries": 2000,
-		"xz_spread": 8,
-		"y_spread": 10,
-		"feature": {
-		  "feature": "reliq:tree/palm/leaves",
-		  "placement": [
-			{
-			  "type": "minecraft:block_predicate_filter",
-			  "predicate": {
-				"type": "minecraft:matching_blocks",
-				"offset": [
-				  0,
-				  0,
-				  0
-				],
-				"blocks": "minecraft:orange_glazed_terracotta"
-			  }
+		"config": {
+			"tries": 3000,
+			"xz_spread": 8,
+			"y_spread": 3,
+			"feature": {
+				"feature": "reliq:tree/palm/leaves",
+				"placement": [
+					{
+						"type": "minecraft:block_predicate_filter",
+						"predicate": {
+							"type": "minecraft:matching_blocks",
+							"offset": [
+								0,
+								0,
+								0
+							],
+							"blocks": "minecraft:jungle_wood"
+						}
+					}
+				]
 			}
-		  ]
-		}
-	  },
-	  "type": "minecraft:random_patch"
+		},
+		"type": "minecraft:random_patch"
 	},
 	"placement": [
-	  {
-		"type": "minecraft:count",
-		"count": 1
-	  },
-	  {
-		"type": "minecraft:random_offset",
-		"xz_spread": 8,
-		"y_spread": 6
-	  },
-	  {
-		"type": "minecraft:heightmap",
-		"heightmap": "MOTION_BLOCKING"
-	  },
-	  {
-		"type": "minecraft:biome"
-	  }
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 4,
+				"max_inclusive": 12
+			},
+			"y_spread": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 0,
+				"max_inclusive": 12
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
 	]
-  }
+}
