@@ -70,6 +70,9 @@
 			"minecraft:spring_lava"
 		],
 		[
+			"reliq:tree/palm/step_1",
+			"reliq:tree/palm/step_2",
+			"reliq:tree/palm/step_3",
 			"reliq:patch/dry_grass_beach",
 
 			"minecraft:glow_lichen",

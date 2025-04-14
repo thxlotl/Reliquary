@@ -1,0 +1,154 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+	  "tries": 600,
+	  "xz_spread": 3,
+	  "y_spread": 2,
+	  "feature": {
+		"feature": {
+		  "config": {
+			"to_place": {
+			  "type": "minecraft:simple_state_provider",
+			  "state": {
+				"Name": "minecraft:mangrove_leaves",
+				"Properties": {
+				  "distance": "1",
+				  "persistent": "false",
+				  "waterlogged": "false"
+				}
+			  }
+			},
+			"schedule_tick": false
+		  },
+		  "type": "minecraft:simple_block"
+		},
+		"placement": [
+		  {
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+			  "type": "minecraft:any_of",
+			  "predicates": [
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					-1,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					3,
+					0,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					-3,
+					0,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					0,
+					3
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					0,
+					-3
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					-1,
+					-1,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					-2,
+					-1,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					2,
+					-1,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					1,
+					-1,
+					0
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					-1,
+					-1
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					-1,
+					-2
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					-1,
+					2
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				},
+				{
+				  "type": "minecraft:matching_blocks",
+				  "offset": [
+					0,
+					-1,
+					1
+				  ],
+				  "blocks": "minecraft:orange_glazed_terracotta"
+				}
+			  ]
+			}
+		  }
+		]
+	  }
+	}
+  }
