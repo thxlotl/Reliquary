@@ -1,11 +1,11 @@
 {
-	"temperature": 0.25,
-	"downfall": 0.8,
+	"temperature": -0.5,
+	"downfall": 0.4,
 	"has_precipitation": true,
 	"effects": {
 		"sky_color": 8233983,
 		"fog_color": 12638463,
-		"water_color": 4159204,
+		"water_color": 4020182,
 		"water_fog_color": 329011,
 		"grass_color": 5794851,
 		"foliage_color": 6783516,
@@ -201,15 +201,14 @@
 		[
 			"reliq:ground_patch/coarse_dirt",
 			"reliq:ground_patch/gravel",
-			"reliq:ground/mossy_stone_rock",
-			"reliq:tree/pine_1_leaf_pile",
+			"reliq:ground/stone_rock",
+			"reliq:tree/pine_1",
 			"reliq:tree/pine_2",
 			"reliq:tree/spruce_fell",
 			"reliq:tree/spruce_stump",
 			"reliq:patch/azure_bluet",
 			"reliq:patch/bush",
 			"reliq:patch/fern_short_grass",
-			"reliq:patch/moss_carpet",
 
 			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",

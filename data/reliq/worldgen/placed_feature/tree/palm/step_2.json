@@ -1,9 +1,9 @@
 {
 	"feature": {
 		"config": {
-			"tries": 3000,
+			"tries": 3500,
 			"xz_spread": 8,
-			"y_spread": 3,
+			"y_spread": 4,
 			"feature": {
 				"feature": "reliq:tree/palm/leaves",
 				"placement": [
@@ -27,7 +27,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 10
+			"count": 11
 		},
 		{
 			"type": "minecraft:heightmap",
@@ -42,12 +42,9 @@
 			},
 			"y_spread": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 0,
-				"max_inclusive": 12
+				"min_inclusive": 4,
+				"max_inclusive": 13
 			}
-		},
-		{
-			"type": "minecraft:biome"
 		}
 	]
 }
