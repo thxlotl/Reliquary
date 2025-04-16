@@ -1,0 +1,19 @@
+{
+  "type": "clamp",
+  "min": 0,
+  "max": 2,
+  "input": {
+    "type": "add",
+    "argument1": {
+      "type": "mul",
+      "argument1": {
+        "type": "noise",
+        "noise": "continentalness",
+        "xz_scale": 0.75,
+        "y_scale": 0.01
+      },
+      "argument2": 1
+    },
+    "argument2": 1
+  }
+}

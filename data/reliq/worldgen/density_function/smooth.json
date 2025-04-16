@@ -4,7 +4,7 @@
     "type": "mul",
     "argument1": {
       "type": "square",
-      "argument": "reliq:t"
+      "argument": "reliq:continent/t"
     },
     "argument2": 3
   },
@@ -13,7 +13,7 @@
     "argument1": -2,
     "argument2": {
       "type": "cube",
-      "argument": "reliq:t"
+      "argument": "reliq:continent/t"
     }
   }
 }

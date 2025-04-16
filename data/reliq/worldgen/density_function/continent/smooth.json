@@ -1,0 +1,23 @@
+{
+  "type": "cube",
+  "argument": {
+    "type": "add",
+    "argument1": {
+      "type": "mul",
+      "argument1": {
+        "type": "square",
+        "argument": "reliq:continent/t"
+      },
+      "argument2": 1
+    },
+    "argument2": {
+      "type": "mul",
+      "argument1": -2,
+      "argument2": {
+        "type": "cube",
+        "argument": "reliq:continent/t"
+      }
+    }
+  }
+  
+}

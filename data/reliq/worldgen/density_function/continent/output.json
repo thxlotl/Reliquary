@@ -1,0 +1,19 @@
+{
+	"type": "mul",
+	"argument1": {
+		"type": "add",
+		"argument1": {
+			"type": "mul",
+			"argument1": "reliq:continent/smooth",
+			"argument2": 1
+		},
+		"argument2": {
+			"type": "y_clamped_gradient",
+			"from_y": 50,
+			"to_y": 150,
+			"from_value": 1,
+			"to_value": -1
+		}
+	},
+	"argument2": 1
+}
