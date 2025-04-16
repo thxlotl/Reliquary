@@ -1,0 +1,50 @@
+{
+  "type": "add",
+  "argument1": {
+    "type": "add",
+    "argument1": {
+      "type": "mul",
+      "argument1": {
+        "type": "mul",
+        "argument1": "reliq:input_func",
+        "argument2": "reliq:smooth"
+      },
+      "argument2": {
+        "type": "mul",
+        "argument1" :{
+          "type": "noise",
+          "noise": "minecraft:surface",
+          "xz_scale": 0.8,
+          "y_scale": 0.2
+        },
+        "argument2": 2
+      }
+    },
+    "argument2": {
+      "type": "add",
+      "argument1": {
+        "type": "mul",
+        "argument1": 1,
+        "argument2": "reliq:input_func"
+      },
+      "argument2": {
+        "type": "y_clamped_gradient",
+        "from_y": 75,
+        "to_y": 250,
+        "from_value": 0.8,
+        "to_value": -1
+      }
+    }
+  }
+  ,
+  "argument2": {
+    "type": "mul",
+    "argument1": {
+      "type": "noise",
+      "noise": "minecraft:badlands_surface",
+      "xz_scale": 2,
+      "y_scale": 0.3
+    },
+    "argument2": 0.1
+  }
+}

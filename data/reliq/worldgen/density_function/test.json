@@ -1,0 +1,15 @@
+{
+  "type": "add",
+  "argument1": {
+    "type": "mul",
+    "argument1": 0.5,
+    "argument2": "reliq:input_func"
+  },
+  "argument2": {
+    "type": "y_clamped_gradient",
+    "from_y": 100,
+    "to_y": 200,
+    "from_value": 1,
+    "to_value": -0.5
+  }
+}

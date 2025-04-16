@@ -1,0 +1,19 @@
+{
+  "type": "add",
+  "argument1": {
+    "type": "mul",
+    "argument1": {
+      "type": "square",
+      "argument": "reliq:t"
+    },
+    "argument2": 3
+  },
+  "argument2": {
+    "type": "mul",
+    "argument1": -2,
+    "argument2": {
+      "type": "cube",
+      "argument": "reliq:t"
+    }
+  }
+}

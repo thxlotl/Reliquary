@@ -6,7 +6,7 @@
 		"vertical_range": 3,
 		"extra_bottom_block_chance": 0,
 		"extra_edge_column_chance": 0.4,
-		"vegetation_chance": 0.1,
+		"vegetation_chance": 0.07,
 		"xz_radius": 3,
 		"replaceable": "#minecraft:dirt",
 		"ground_state": {
@@ -95,7 +95,7 @@
 				{
 					"type": "minecraft:random_offset",
 					"xz_spread": 0,
-					"y_spread": 2
+					"y_spread": 3
 				}
 			]
 		}

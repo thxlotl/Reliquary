@@ -1,0 +1,14 @@
+{
+  "type": "clamp",
+  "min": 0,
+  "max": 1.2,
+  "input": {
+    "type": "add",
+    "argument1": {
+      "type": "mul",
+      "argument1": "reliq:input_func",
+      "argument2": 1
+    },
+    "argument2": 0.8
+  }
+}
