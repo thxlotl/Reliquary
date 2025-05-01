@@ -22,7 +22,7 @@
           "argument2": 1
         }
       },
-      "argument2": 2
+      "argument2": 0.7
     },
     "argument2": {
       "type": "add",
@@ -56,7 +56,7 @@
           "from_y": 75,
           "to_y": 250,
           "from_value": 0.8,
-          "to_value": -1
+          "to_value": -1.2
         }
       }
     }
